@@ -1,0 +1,423 @@
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* ===================== hero section ===================== */
+      .hero-section {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        padding: 167px 0 0 150px;
+      }
+      .content {
+        text-align: center;
+        width: 776px;
+        margin-top: 55px;
+      }
+      .logo {
+        margin-bottom: 0%;
+      }
+      .logo img {
+        width: 517px;
+        margin: 0 auto;
+        position: relative;
+        left: -24px;
+      }
+      .h-text {
+        margin-bottom: 0;
+      }
+      .h-text h1 {
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 8px;
+        line-height: 1.2;
+        white-space: nowrap; 
+        color: #222;
+      }
+      .h-text p {
+        margin: 5px 0 0;
+        font-size: 39px;
+        font-weight: 300;
+        line-height: 1.2;
+        color: #5d5d5d;
+        position: relative;
+        left: -39px;
+      }
+      .stors-logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 25px;
+        margin: 104px 0 0 19px;
+      }
+      .stors-logo img {
+        width: 300px;
+      }
+      .Top-image {
+        flex-shrink: 0;
+      }
+      .Top-image img {
+        width: 870px;
+      }
+
+      /* ===================== second section ===================== */
+      .Channels-section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 92px;
+        margin-top: 80px;
+      }
+      .channel-img {
+        flex-shrink: 0;
+      }
+      .channel-img img {
+        width: 805px;
+      }
+      .channel-text {
+        text-align: center;
+        width: 830px;
+        margin-left: 45px;
+        margin-bottom: 140px;
+      }
+      .channel-text h2 {
+        margin: 0 0 41px;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 9.5px;
+        padding-left: 9.5px;
+        color: #222;
+        position: relative;
+        left: -12px;
+      }
+      .channel-text p {
+        margin: 0;
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 59.5px;
+        color: #5d5d5d;
+        white-space: nowrap; 
+      }
+
+      /* ===================== Third section ===================== */
+      .Messages-section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 236px;
+        margin-top: -141px;
+      }
+      .Message-text {
+        text-align: center;
+        /* ✅ NAYA: */
+        width: 700px;
+        margin-top: 38px;
+        flex-shrink: 0;
+      }
+      .Message-text h2 {
+        margin: 0 0 29px;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 9.5px;
+        padding-left: 9.5px;
+        color: #222;
+      }
+      .Message-text p {
+        margin: 0;
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 59.5px;
+        color: #5d5d5d;
+        white-space: nowrap;
+      }
+      .Message-img {
+        margin-left: 48px;
+        flex-shrink: 0;
+      }
+      .Message-img img {
+        width: 757px;
+      }
+
+      /* ===================== 4th Section ===================== */
+      .In-future-section {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        height: 1070px;
+        padding: 0 0 0 73px;
+      }
+      .In-future-img {
+        position: relative;
+        z-index: 1;
+        flex-shrink: 0;
+      }
+      .In-future-img img {
+        width: 864px;
+      }
+      .In-future-text-img {
+        text-align: center;
+        width: 660px;
+        margin: 171px 0 0 -13px;
+      }
+      .In-future-text-img img {
+        position: relative;
+        z-index: 0;
+        width: 837px;
+        max-width: none;
+        left: -166px;
+        margin-bottom: 86px;
+      }
+      .In-future-text-img h2 {
+        margin: 0 0 54px;
+        font-size: 50px;
+        font-weight: 500;
+        letter-spacing: 9.5px;
+        padding-left: 9.5px;
+        color: #222;
+        position: relative;
+        left: -34px;
+      }
+      .In-future-text-img p {
+        margin: 0;
+        font-size: 50px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 59.5px;
+        color: #5d5d5d;
+        white-space: nowrap;
+      }
+
+      /* ===================== Footer ===================== */
+      .footer {
+        width: 100%;
+        padding: 93px 0 31px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+      }
+      .footer h3 {
+        font-size: 41.5px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #2b2b2b;
+        margin: 0 64px 0 0;
+      }
+      .footer h3:nth-of-type(2) {
+        font-size: 34px;
+        margin-top: 50px; 
+      }
+
+      .stors-logo-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 21px;
+        margin: 46px 64px 0 0;
+        flex-wrap: wrap;
+      }
+
+      .stors-logo-footer img {
+        width: 300px;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .footer span {
+        color: #4aa3f7;
+        cursor: pointer;
+        margin-left: 6px;
+      }
+
+      .peratude {
+        margin-top: 53px;
+      }
+
+      .peratude img {
+        width: 169px;
+        height: auto;
+      }
+
+      @media (min-width: 601px) and (max-width: 1919px) {
+        .hero-section { padding: 8.698vw 0 0 7.812vw; }
+        .content { width: 40.417vw; margin-top: 2.865vw; }
+        .logo img { width: 26.927vw; left: -1.250vw; }
+        .h-text h1 { font-size: 1.875vw; letter-spacing: 0.417vw; }
+        .h-text p { font-size: 2.031vw; margin-top: 0.260vw; left: -2.031vw; }
+        .stors-logo { gap: 1.302vw; margin: 5.417vw 0 0 0.990vw; }
+        .stors-logo img,
+        .stors-logo-footer img { width: 15.625vw; }
+        .Top-image img { width: 45.312vw; }
+        .Channels-section { padding-left: 4.792vw; margin-top: 4.167vw; }
+        .channel-img img { width: 41.927vw; }
+        .channel-text { width: 43.229vw; margin-left: 2.344vw; margin-bottom: 7.292vw; }
+        .channel-text h2,
+        .Message-text h2,
+        .In-future-text-img h2 { font-size: 2.604vw; letter-spacing: 0.495vw; padding-left: 0.495vw; }
+        .channel-text h2 { margin-bottom: 2.135vw; left: -0.625vw; }
+        .channel-text p,
+        .Message-text p,
+        .In-future-text-img p { font-size: 2.604vw; letter-spacing: 0.052vw; line-height: 3.099vw; }
+        .Messages-section { padding-left: 12.292vw; margin-top: -7.344vw; }
+        .Message-text { width: 36.458vw; margin-top: 1.979vw; }
+        .Message-text h2 { margin-bottom: 1.510vw; }
+        .Message-img { margin-left: 2.500vw; }
+        .Message-img img { width: 39.427vw; }
+        .In-future-section { height: 55.729vw; padding-left: 3.802vw; }
+        .In-future-img img { width: 45vw; }
+        .In-future-text-img { width: 34.375vw; margin: 8.906vw 0 0 -0.677vw; }
+        .In-future-text-img img { width: 43.594vw; left: -8.646vw; margin-bottom: 4.479vw; }
+        .In-future-text-img h2 { margin-bottom: 2.812vw; left: -1.771vw; }
+        .footer { padding: 4.844vw 0 1.615vw; }
+        .footer h3 { font-size: 2.161vw; margin-right: 3.333vw; }
+        .footer h3:nth-of-type(2) { font-size: 1.771vw; margin-top: 2.604vw; }
+        .stors-logo-footer { gap: 1.094vw; margin: 2.396vw 3.333vw 0 0; }
+        .footer span { margin-left: 0.312vw; }
+        .peratude { margin-top: 2.760vw; }
+        .peratude img { width: 8.802vw; }
+      }
+
+      @media (max-width: 600px) {
+        .hero-section,
+        .Channels-section,
+        .Messages-section,
+        .In-future-section {
+          flex-direction: column;
+          align-items: center; 
+          height: auto; 
+          padding: 30px 5%;
+          margin-top: 0; 
+          gap: 30px;
+        }
+
+        /* Hero */
+        .content,
+        .Top-image {
+          width: 100%;
+        }
+        .content { margin-top: 0; } 
+
+        .logo img {
+          width: 230px;
+          left: 0; 
+        }
+
+        .h-text h1 {
+          font-size: 19px;
+          letter-spacing: 1px;
+          white-space: normal; 
+        }
+
+        .h-text p {
+          font-size: 16px;
+          left: 0; 
+        }
+
+        .stors-logo {
+          flex-direction: column;
+          gap: 15px;
+          margin: 30px 0 0; 
+        }
+
+        .stors-logo img {
+          width: 200px;
+        }
+
+        /* Channels */
+        .channel-img,
+        .channel-text {
+          width: 100%;
+        }
+        .channel-text { margin: 0; } 
+
+        /* Messages */
+        .Message-text,
+        .Message-img {
+          width: 100%;
+          margin: 0; 
+        }
+        .Message-img { order: -1; } 
+        .In-future-img,
+        .In-future-text-img {
+          width: 100%;
+        }
+        .In-future-text-img { margin: 0; } /* ✅ NAYA */
+        .In-future-text-img img { 
+          width: 100%;
+          left: 0;
+          margin-bottom: 20px;
+        }
+        .Channels-section img,
+        .Messages-section img,
+        .In-future-img img,
+        .Top-image img { 
+          width: 100%;
+          max-width: 460px;
+          margin: 0 auto;
+        }
+
+        /* All Headings */
+        .channel-text h2,
+        .Message-text h2,
+        .In-future-text-img h2 {
+          font-size: 25px;
+          letter-spacing: 4px;
+          padding-left: 4px; 
+          left: 0; 
+          margin-bottom: 14px; 
+        }
+
+        /* All Paragraphs */
+        .channel-text p,
+        .Message-text p,
+        .In-future-text-img p {
+          font-size: 18px;
+          letter-spacing: 0;
+          line-height: 1.5; 
+          white-space: normal;
+        }
+
+        /* Footer */
+        .footer {
+          padding: 40px 15px;
+        }
+        .footer h3 {
+          font-size: 18px;
+          margin-right: 0; 
+        }
+        .footer h3:nth-of-type(2) { font-size: 17px; margin-top: 30px; } /* ✅ NAYA */
+        .stors-logo-footer {
+          flex-direction: column;
+          gap: 15px;
+          margin-right: 0; 
+        }
+        .stors-logo-footer img {
+          width: 200px;
+        }
+        .peratude img {
+          width: 65px;
+        }
+      }
